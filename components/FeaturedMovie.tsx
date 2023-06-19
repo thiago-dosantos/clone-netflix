@@ -1,6 +1,6 @@
 import React from "react";
 
-export default ({item}) => {
+const FeaturedMovie = ({item}) => {
 
     let firstDate = new Date(item.first_air_date);
     let genres = [];
@@ -35,3 +35,7 @@ export default ({item}) => {
         </section>
     );
 }
+
+FeaturedMovie.displayName = 'FeaturedMovie';
+
+export default FeaturedMovie;

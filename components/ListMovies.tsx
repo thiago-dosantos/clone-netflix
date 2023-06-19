@@ -5,7 +5,7 @@ import FeaturedMovie from '@/components/FeaturedMovie';
 import { Ring } from '@uiball/loaders'
 import Footer from '@/components/Footer';
 
-export default () => {
+const ListMovies = () => {
   
   const [movieList, setMovieList] = useState([]);
   const [featureData, setFeatureData] = useState(null);
@@ -53,4 +53,8 @@ export default () => {
       <Footer />
     </div>
   );
-}
+};
+
+ListMovies.displayName = 'ListMovies';
+
+export default ListMovies;
