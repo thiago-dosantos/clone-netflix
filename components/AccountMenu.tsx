@@ -28,4 +28,6 @@ const AccountMenu: React.FC<AccountMenuProps> = ({ visible }) => {
   )
 }
 
+AccountMenu.displayName = 'AccountMenu';
+
 export default AccountMenu;

@@ -3,7 +3,7 @@ import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 
 
-export default ({title, items}) => {
+const MovieRow = ({title, items}) => {
     const [scrollX, setScrollX] = useState(-400);
 
     const handleLeftArrow = () => {
@@ -51,3 +51,7 @@ export default ({title, items}) => {
       </div>  
     );
 }
+
+MovieRow.displayName = 'MovieRow';
+
+export default MovieRow;
