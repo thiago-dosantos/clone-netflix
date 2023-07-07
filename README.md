@@ -1,8 +1,8 @@
-## Project Clone Netflix NextJS.
+# Project Clone Netflix NextJS.
 
 Landing page created by Thiago, with the intention of demonstrating my skills and knowledge in Front-end in the NextJS framework, recreating the main page of the Netflix streaming platform.
 
-# All image rights reserved by Netflix.
+## All image rights reserved by Netflix.
 
 Resources used:
 
