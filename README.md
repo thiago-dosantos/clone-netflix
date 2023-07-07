@@ -13,4 +13,4 @@ TypeScript
 UI Balls (https://uiball.com/)
 TMDB Library API (https://www.themoviedb.org/)
 
-<img src="https://i.ibb.co/KWxSn7G/bannerclonenetflix.png" />
+![Banner](public/Images/bannerclonenetflix.png)
